@@ -18,11 +18,13 @@
       }
 
       /* 冰墩墩开始 */
+	  /* 改冰墩墩的位置在这里改 */
       .bingdundun {
         position: absolute;
         /* left: 35%; */
-		right:35%;
-        top: 100px;
+		right:65%;
+        /* top: 300px; */
+		top: 50%;
       }
 
       .m_body {
