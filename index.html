@@ -1,0 +1,164 @@
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>I Love You Forever</title>
+		<meta name="author" content="Mike">
+			<link rel="stylesheet" href="css/bdd.css" type="text/css" media="all">
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+		<!--导库-->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<!-- 图片幻灯片效果-->
+		<script type="text/javascript" src="js/roundabout.js"></script>
+		<script type="text/javascript" src="js/roundabout_shapes.js"></script>
+		<script type="text/javascript" src="js/gallery_init.js"></script>
+		<!-- 下雪-->
+		<script type="text/javascript" src="js/snowstorm.js"></script>
+		<!-- 打字机效果-->		
+		<script type="text/javascript" src="js/text.js"></script>
+		<!-- 画爱心-->
+		<script type="text/javascript" src="js/ga.js" async=""></script>
+		<script type="text/javascript" src="js/heart.js"></script>
+		<!-- 移动div-->
+		<script type="text/javascript" src="js/move.js"></script>
+		<!-- 显示时间 -->
+		<script type="text/javascript" src="js/time.js"></script>
+		<!-- 设置文字跟随鼠标 -->
+		<script type="text/javascript" src="js/makesnake.js"></script></head><body>
+		<!-- thanks for watching! -->
+		<span id="span0" class="spanstyle">T</span><span id="span1" class="spanstyle">h</span>
+		<span id="span2" class="spanstyle">a</span><span id="span3" class="spanstyle">n</span>
+		<span id="span4" class="spanstyle">k</span><span id="span5" class="spanstyle">s</span><span id="span6" class="spanstyle">
+		 </span><span id="span7" class="spanstyle">f</span><span id="span8" class="spanstyle">o</span><span id="span9" class="spanstyle">r</span>
+		 <span id="span10" class="spanstyle"> </span><span id="span11" class="spanstyle">w</span>
+		 <span id="span12" class="spanstyle">a</span><span id="span13" class="spanstyle">t</span><span id="span14" class="spanstyle">c</span><span id="span15" class="spanstyle">h</span>
+		 <span id="span16" class="spanstyle">i</span><span id="span17" class="spanstyle">n</span><span id="span18" class="spanstyle">g</span><span id="span19" class="spanstyle">!</span>
+	
+
+	
+		<script type="text/javascript">
+			setTimeout(makesnake, 42000);
+		</script>
+		<!-- 冰墩墩 -->
+		<div class="bingdundun">
+		  <div class="m_body">
+		    <!-- 东奥图标 -->
+		    <img
+		      src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F46657c5164a1637f8b015ff44be27a020345311d25243-5BjOfc_fw658&refer=http%3A%2F%2Fhbimg.b0.upaiyun.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1647052580&t=9841b8371651dd08d9e9eb09b913f78e"
+		      alt=""
+		    />
+		  </div>
+		  <div class="ear1"></div>
+		  <div class="ear2"></div>
+		  <div class="eye1"></div>
+		  <div class="eye2"></div>
+		  <div class="face c_blue"></div>
+		  <div class="face c_red"></div>
+		  <div class="face c_purple"></div>
+		  <div class="face c_yellow"></div>
+		  <div class="face c_green"></div>
+		  <div class="nose"></div>
+		  <div class="mouse"></div>
+		  <div class="arm1"></div>
+		  <div class="arm2"></div>
+		  <div class="leg1"></div>
+		  <div class="leg2"></div>
+		</div>
+		<div id="snow"></div>
+		<audio src="mp3/yqxwl.mp3" autoplay></audio>
+		<script>
+		  function Obj() {}
+		  Obj.prototype.draw = function (o) {
+		    let speed = 0 //雪花下落的数值
+		    let startPosLeft = Math.ceil(
+		      Math.random() * document.documentElement.clientWidth
+		    ) //雪花随机开始x值
+		    o.style.opacity = (Math.ceil(Math.random() * 3) + 7) / 10 //透明度
+		    o.style.left = startPosLeft + 'px'
+		    o.style.color = '#fff'
+		    o.style.fontSize = 12 + Math.ceil(Math.random() * 14) + 'px'
+		    setInterval(function () {
+		      if (speed < document.documentElement.clientHeight) {
+		        o.style.top = speed + 'px'
+		        o.style.left = startPosLeft + Math.ceil(Math.random() * 8) + 'px'
+		        speed += 10
+		      } else {
+		        o.style.display = 'none'
+		      }
+		    }, 80)
+		  }
+		
+		  let snow = document.getElementById('snow')
+		
+		  /*每400ms 创建一个雪花*/
+		  setInterval(function () {
+		    let odiv = document.createElement('div')
+		    odiv.innerHTML = '✽'
+		    odiv.style.position = 'absolute'
+		    snow.appendChild(odiv)
+		    let obj = new Obj()
+		    obj.draw(odiv)
+		  }, 400)
+		</script>
+		<!-- 冰墩墩 -->
+		<!--#Header-->
+		<div id="header" style="opacity:0.85">
+			<div id="title">
+				亲爱的锦媛宝宝
+			</div>
+		</div>
+      <!-- 背景音乐 -->
+	  <audio src="" loop preload></audio>
+		<!-- #myContent -->
+		<div id="myContent">
+				<span id="blink" style="display: none;">_</span></div>
+		<div id="contentToWrite" style="display:none">
+                   张昕你好,         <br>
+				我是18岁的源哥，<br>
+				很高兴在2021年认识你.<br>
+				2022年我依然在<br>
+				你不用羡慕其他人<br>
+				源哥最帅<br>
+				源哥最帅<br>
+				源哥最帅<br>
+				源哥最帅源哥最帅<br>
+				源哥最帅<br>
+				源哥最帅<br>
+				源哥最帅<br>
+				源哥最帅<br>
+				-----------------------Just for You<br>
+		</div>
+		<script type="text/javascript">
+			writeContent(true);
+		</script>
+		
+
+		<!-- #container -->
+		<div id="container">
+			<ul id="myRoundabout" class="roundabout-holder" style="padding: 0px; position: relative; z-index: 100;">
+		  	<li class="roundabout-moveable-item roundabout-in-focus" current-scale="1.0000" style="position: absolute; left: 122px; top: 87px; width: 350px; height: 222px; opacity: 1; z-index: 400; font-size: 16px;"><img src="img/1.jpg" alt=""></li>
+			<li class="roundabout-moveable-item" current-scale="0.7927" style="position: absolute; left: -0.4px; top: 110px; width: 277.445px; height: 175.9794px; opacity: 1; z-index: 296; font-size: 12.68px;"><img src="img/2.jpg" alt=""></li>
+			<li class="roundabout-moveable-item" current-scale="0.4573" style="position: absolute; left: 473.8px; top: 147.2px; width: 160.055px; height: 101.5206px; opacity: 1; z-index: 129; font-size: 7.32px;"><img src="img/3.jpg" alt=""></li>
+			<li class="roundabout-moveable-item" current-scale="0.4573" style="position: absolute; left: -39.8px; top: 147.2px; width: 160.055px; height: 101.5206px; opacity: 1; z-index: 129; font-size: 7.32px;"><img src="img/4.jpg" alt=""></li>
+			<li class="roundabout-moveable-item" current-scale="0.7927" style="position: absolute; left: 317px; top: 110px; width: 277.445px; height: 175.9794px; opacity: 1; z-index: 296; font-size: 12.68px;"><img src="img/5.jpg" alt=""></li>
+		  </ul>
+		</div>
+		<script type="text/javascript">
+			setTimeout(move, 15000);
+		</script>
+  		
+  		<!-- #bg -->
+		<div id="bg">
+			<canvas id="garden" width="1583" height="709"><c style="color: #FFF; text-shadow:2px 3px 3px #222; font-family:Microsoft YaHei; font-size:50px">❥(^_-)!</c></canvas>
+		</div>
+
+		<!-- #time -->
+		<div id="time">
+			<span id="show"></span>
+			<script type="text/javascript">
+				setTimeout("showTime()", 40000);
+			</script>
+		</div>
+
+	
+	
+
+</body>
